@@ -5,23 +5,22 @@ import org.openqa.selenium.support.FindBy;
 
 public class loginmodel 
 {
-	@FindBy(id="login-email")
-	private WebElement emailtestbox;
-	
-	@FindBy(xpath="//button[text()='Continue']")
-	private WebElement continuebutton;
-	
-	@FindBy(id="login-password")
-	private WebElement passwordtestbox;
-	
-	@FindBy(xpath="(//button[text()='Login'])[2]")
-	private WebElement logincontinue;
-	
-	@FindBy(xpath="//div[text()='Forgot Password?']")
-	private WebElement ForgotPassword;
-	
-	@FindBy(xpath="//button[contains(text(),'One-time-passcode')]")
-	private WebElement OTPlogin;
+	@FindBy(xpath="//button[text()='Log In']") private WebElement loginbutton;
+	@FindBy(id="login-email")private WebElement emailtestbox;
+	@FindBy(xpath="//button[text()='Continue']")private WebElement continuebutton;
+	@FindBy(id="login-password")private WebElement passwordtestbox;
+	@FindBy(xpath="(//button[text()='Login'])[2]")private WebElement logincontinue;
+	@FindBy(xpath="//div[text()='Forgot Password?']")private WebElement ForgotPassword;
+	@FindBy(xpath="//button[contains(text(),'One-time-passcode')]")private WebElement OTPlogin;
+	@FindBy(linkText="Logout")private WebElement Logout;
+
+	public WebElement getLogout() {
+		return Logout;
+	}
+
+	public WebElement getLoginbutton() {
+		return loginbutton;
+	}
 
 	public WebElement getEmailtestbox() {
 		return emailtestbox;

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T21:17:48 IST" name="Suite" finished-at="2023-12-17T21:17:54 IST" duration-ms="6137">
+  <suite started-at="2023-12-18T16:20:19 IST" name="Suite" finished-at="2023-12-18T16:20:24 IST" duration-ms="5198">
     <groups>
     </groups>
-    <test started-at="2023-12-17T21:17:48 IST" name="Test" finished-at="2023-12-17T21:17:54 IST" duration-ms="6137">
+    <test started-at="2023-12-18T16:20:19 IST" name="Test" finished-at="2023-12-18T16:20:24 IST" duration-ms="5198">
       <class name="Scripts.login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Scripts.login@7db12bb6]" started-at="2023-12-17T21:17:48 IST" name="setup" finished-at="2023-12-17T21:17:52 IST" duration-ms="4135" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Scripts.login@7db12bb6]" started-at="2023-12-18T16:20:19 IST" name="setup" finished-at="2023-12-18T16:20:21 IST" duration-ms="1820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="signup()[pri:0, instance:Scripts.login@7db12bb6]" started-at="2023-12-17T21:17:52 IST" name="signup" finished-at="2023-12-17T21:17:54 IST" duration-ms="1683" status="PASS">
+        <test-method signature="signup()[pri:0, instance:Scripts.login@7db12bb6]" started-at="2023-12-18T16:20:21 IST" name="signup" finished-at="2023-12-18T16:20:24 IST" duration-ms="3146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:Scripts.login@7db12bb6]" started-at="2023-12-17T21:17:54 IST" name="shutdown" finished-at="2023-12-17T21:17:54 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:Scripts.login@7db12bb6]" started-at="2023-12-18T16:20:24 IST" name="shutdown" finished-at="2023-12-18T16:20:24 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
