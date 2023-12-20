@@ -4,13 +4,12 @@
   <parameter name="browser" value="edge"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Scripts.login">
+      <class name="Scripts.signup">
         <methods>
-          <include name="signup"/>
-          <include name="shutdown"/>
           <include name="setup"/>
+          <include name="siguup"/>
         </methods>
-      </class> <!-- Scripts.login -->
+      </class> <!-- Scripts.signup -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

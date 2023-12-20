@@ -4,7 +4,7 @@
 	<parameter name="browser" value="edge"></parameter>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Scripts.login"/>
+      <class name="Scripts.signup"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
