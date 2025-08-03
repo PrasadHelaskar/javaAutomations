@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<parameter name="browser" value="edge"></parameter>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Scripts.signup"/>
+      <class name="organization.TC_6"/>
+      <class name="organization.TC_5"/>
+      <class name="organization.TC_4"/>
+      <class name="organization.TC_3"/>
+      <class name="organization.TC_9"/>
+      <class name="organization.TC_8"/>
+      <class name="organization.TC_7"/>
+      <class name="organization.TC_24"/>
+      <class name="organization.TC_23"/>
+      <class name="organization.TC_45"/>
+      <class name="organization.TC_26"/>
+      <class name="organization.TC_25"/>
+      <class name="organization.TC_28"/>
+      <class name="organization.TC_27"/>
+      <class name="organization.TC_29"/>
+      <class name="organization.TC_40"/>
+      <class name="organization.TC_20"/>
+      <class name="organization.TC_42"/>
+      <class name="organization.screenShot"/>
+      <class name="organization.TC_41"/>
+      <class name="organization.TC_44"/>
+      <class name="organization.TC_21"/>
+      <class name="organization.TC_43"/>
+      <class name="organization.TC_14_"/>
+      <class name="organization.TC_13"/>
+      <class name="organization.TC_35"/>
+      <class name="organization.TC_12"/>
+      <class name="organization.TC_34"/>
+      <class name="organization.TC_15"/>
+      <class name="organization.TC_37"/>
+      <class name="organization.TC_36"/>
+      <class name="organization.TC_17"/>
+      <class name="organization.TC_2"/>
+      <class name="organization.TC_39"/>
+      <class name="organization.TC_1"/>
+      <class name="organization.TC_16"/>
+      <class name="organization.TC_38"/>
+      <class name="organization.TC_19"/>
+      <class name="organization.TC_18"/>
+      <class name="organization.TC_31"/>
+      <class name="organization.TC_30"/>
+      <class name="organization.TC_11"/>
+      <class name="organization.TC_33"/>
+      <class name="organization.TC_10"/>
+      <class name="organization.TC_32"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
